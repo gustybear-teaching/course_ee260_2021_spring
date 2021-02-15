@@ -1,5 +1,5 @@
 ---
-title: EE260 (Spring, 2021)
+title: Midterm 01
 subtitle: Spring, 2021
 type: book
 icon_pack: fas

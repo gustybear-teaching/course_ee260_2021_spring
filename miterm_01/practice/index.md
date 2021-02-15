@@ -1,10 +1,10 @@
 ---
-title: "EE260 (Spring, 2021) Practice Midterm Exam 01"
+title: "Practice Midterm 01"
 date: 2021-02-12
 type: book
 commentable: true
 
-summary: "The practice exam for midterm 01"
+summary: "The practice exam for midterm 01, EE260, spring, 2021."
 
 tags:
 - teaching
@@ -60,7 +60,7 @@ tags:
 
 6) (5 pts) Convert the function F shown in the truth table in Table below to an *product-of-sum* equation. Don’t minimize the equation.
 
-{{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/figures/problem_6.png" width=150 >}}
+{{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/figures/problem_6.png" width=150 >}}
 
 7) (5 pts) Use the theorems of boolean algebra to simplify the following logic function: F = m·n·o + q’·p’·n’ + p·r·m + q’·o·m·p’ + m·r (hint, the result has three terms. Don't spend too much time on this one. If stuck, move on first)
 
