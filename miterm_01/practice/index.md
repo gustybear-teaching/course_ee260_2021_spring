@@ -60,7 +60,7 @@ tags:
 
 6) (5 pts) Convert the function F shown in the truth table in Table below to an *product-of-sum* equation. Don’t minimize the equation.
 
-{{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/figures/problem_6.png" width=150 >}}
+{{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/images/problem_6.png" width=150 >}}
 
 7) (5 pts) Use the theorems of boolean algebra to simplify the following logic function: F = m·n·o + q’·p’·n’ + p·r·m + q’·o·m·p’ + m·r (hint, the result has three terms. Don't spend too much time on this one. If stuck, move on first)
 
