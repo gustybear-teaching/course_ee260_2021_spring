@@ -1,10 +1,10 @@
 ---
-title: "Practice Exam"
-date: 2021-02-12
+title: "Exam"
+date: 2021-02-19
 type: book
 commentable: true
 
-summary: "The practice exam for midterm 01, EE260, spring, 2021."
+summary: "The exam for midterm 01, EE260, spring, 2021."
 
 tags:
 - teaching
@@ -14,7 +14,15 @@ tags:
 
 **Multiple Choices Questions (8 pts)**
 
-1) (2 pts) Which of the following statements is not true of a hardware description language (HDL) simulator?
+1) (2 pts) Which of the following block diagrams represents the given Verilog code?
+
+```verilog
+module Sampledesign (a, b, c, x, y);
+   input a, b, c;
+   output reg x, y;
+   …
+endmodule
+```
  - a. Input values are determined automatically by the HDL simulator
  - b. A designer provides input values intended to test the system
  - c. Output values are determined automatically by the HDL simulator
