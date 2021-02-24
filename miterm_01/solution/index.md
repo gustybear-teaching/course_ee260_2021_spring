@@ -1,10 +1,10 @@
 ---
-title: "Exam"
+title: "Exam Solutions"
 date: 2021-02-18
 type: book
 commentable: true
 
-summary: "The exam for midterm 01, EE260, spring, 2021."
+summary: "The solutions for midterm 01, EE260, spring, 2021."
 
 tags:
 - teaching
@@ -26,6 +26,8 @@ endmodule
 | --| --| --| --| 
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1a.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1b.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1c.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1d.png" width=175 >}} |
 
+> - a.
+
 2) (2 pts) For the given Verilog code snippet, identify ZZZ.
 
 ```
@@ -42,6 +44,8 @@ endmodule
 - b. `always @ (y)`
 - c. `always (p, q, r)`
 - d. `always (y)`
+
+> - a.
 
 3) (2 pts) Identify a true statement about the given Verilog code snippet?
 
@@ -60,6 +64,8 @@ endmodule
 - b. When none of the inputs change, the always procedure does not execute
 - c. When none of the inputs change, the always procedure still executes
 - d. If g = 0 and h = 0, then f = 0. The change in g’s value to 1 causes the procedure to execute f = 1
+
+> - b.
 
 4) (2 pts) Which XXX and YYY complete the structural Verilog description for the given circuit?
 
@@ -84,6 +90,8 @@ endmodule
 - c. XXX: (a, bnot, abnot) and YYY: (a, b, ab)
 - d. XXX: (a, bnot, y) and YYY: (a, b, y)
 
+> - c.
+
 5) (2 pts) 
 Which XXX completes the given structural Verilog code that implements a 4-bit 4x1 mux using 2x1 mux components?
 
@@ -105,6 +113,8 @@ endmodule
 - c. wire [1:0] y;
 - d. wire [3:0] y;
 
+> - b.
+
 **Short-Answer Questions (40 pts)**
 
 1) (5 pts) Perform the following number-system conversions (show your work):
@@ -112,6 +122,11 @@ endmodule
   - b. $1011011_{2} = ()_{10}$
   - c. $0F100_{16} = ()_{8}$
   - d. $1011101111101_{2} = ()_{16}$
+
+> - a. $864_{10} = (1101100000)_{2}$
+> - b. $1011011_{2} = (91)_{10}$
+> - c. $0F100_{16} = (170400)_{8}$
+> - d. $1011101111101_{2} = (177D)_{16}$
 
 2) (5 pts) Draw the XOR(x,y) gate CMOS transistor circuit. Show the conduction path and output value when: 
   - a. x = 1 and y = 0
