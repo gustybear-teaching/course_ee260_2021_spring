@@ -24,7 +24,7 @@ endmodule
 ```
 | a. | b. | c. | d. |
 | --| --| --| --| 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1a.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1b.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1c.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_1d.png" width=175 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/problem_1a.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/problem_1b.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/problem_1c.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/problem_1d.png" width=175 >}} |
 
 > - a.
 
@@ -69,7 +69,7 @@ endmodule
 
 4) (2 pts) Which XXX and YYY complete the structural Verilog description for the given circuit?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_4.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/problem_4.png" width=300 >}} |
 | -- |
 
 ```
@@ -132,6 +132,10 @@ endmodule
   - a. x = 1 and y = 0
   - b. x = 1 and y = 1
 
+| a. | b. |
+| --| --|
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_ab.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_ad.png" width=175 >}} |
+
 3) (5 pts) Write the 8-bit signed-magnitude, two's-complement representations for each of these decimal numbers: +19, -47, 0.
 
 > - 8-bit signed-magnitude
@@ -152,6 +156,17 @@ endmodule
 > - b. F(w,y,z) = (w + y + z)(w + y + z')
 
 5) (5 pts) A network router connects multiple computers together and allows them to send messages to each other. If two or more computers send messages simultaneously, the messages “collide” and the messages must be resent. Using the combinational design process, create a collision detection circuit for a router that connects 4 computers. The circuit has 4 inputs labeled M0 through M3 that are 1 when the corresponding computer is sending a message and 0 otherwise. The circuit has one output labeled C that is 1 when a collision is detected and 0 otherwise.
+
+> Step 1: Capture the function (truth table)  
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_5a.png" width=300 >}} |
+> | -- |
+
+> Step 2A: Create equation (canonical form)  
+> C’ = M3’M2’M1’M0’ + M3’M2’M1’M0 + M3’M2’M1M0’ + M3’M2M1’M0’ + M3M2’M1’M0’  
+
+> Step 2B: Create circuit  
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_5b.png" width=300 >}} |
+> | -- |
 
 6) (5 pts) Prove or disprove the following proposition: Let X and Y be boolean expressions. Then X · Y = 0 and X + Y = 1 implies that X' = Y'.
 
