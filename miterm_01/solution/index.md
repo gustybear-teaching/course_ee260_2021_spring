@@ -134,18 +134,47 @@ endmodule
 
 3) (5 pts) Write the 8-bit signed-magnitude, two's-complement representations for each of these decimal numbers: +19, -47, 0.
 
+> - 8-bit signed-magnitude
+>   - +19: 00010011
+>   - -47: 10101111
+>   -   0: 00000000
+
+> - 8-bit two's-complement
+>   - +19: 00010011
+>   - -47: 11010001
+>   -   0: 00000000
+
 4) (5 pts) Expand F(w,y,z) = w'y + yz + w to 
   - a. sum-of-minterms form
   - b. product-of-maxterms form
+
+> - a. F(w,y,z) = w'yz + w'yz' + wyz + wy'z + wyz' + wy'z'
+> - b. F(w,y,z) = (w + y + z)(w + y + z')
 
 5) (5 pts) A network router connects multiple computers together and allows them to send messages to each other. If two or more computers send messages simultaneously, the messages “collide” and the messages must be resent. Using the combinational design process, create a collision detection circuit for a router that connects 4 computers. The circuit has 4 inputs labeled M0 through M3 that are 1 when the corresponding computer is sending a message and 0 otherwise. The circuit has one output labeled C that is 1 when a collision is detected and 0 otherwise.
 
 6) (5 pts) Prove or disprove the following proposition: Let X and Y be boolean expressions. Then X · Y = 0 and X + Y = 1 implies that X' = Y'.
 
+> If X · Y = 0, then either X, Y, or both = 0.
+> If X + Y = 1, then either X or Y = 1.
+> Therefore, both equations are only satisfied if (X,Y) = (1,0) or (0,1)
+> So X = Y' is required and the proposition is false.
+
 7) (5 pts) Implement a 1-bit 2-to-1 multiplexer using only 2-input NOR gates.
   - a. Derive the truth table.
   - b. Derive the product-of-sum expression.
   - c. Convert the product-of-sum circuit into NOR gate implementation.
+
+> - a.  
+> | S | A | B | C |
+> |---|---|---|---|
+> | 0 | 0 | x | 0 |
+> | 0 | 1 | x | 1 |
+> | 1 | x | 0 | 0 |
+> | 1 | x | 1 | 1 |
+
+> - b. X = (S + A)(S' + B)
+> - c. X = X''=((( S + A )( S' + B ))')'=(( S + A )' + ( S' + B )')'  
 
 8) (5 pts) Sketch the circuit that computes $|A - B| × 4$, where A, B are 4-bit signed (2's complement) numbers. For example: $𝐴 = 1010, 𝐵 = 0111 \rightarrow |𝐴 − 𝐵| \times 4 = 13 \times 4 = 52$. You can only use full adders and logic gates. Your circuit must avoid overflow. (hint: In Verilog, $X \times 4$ can be implemented as `{X, 2b'00}`)
 
