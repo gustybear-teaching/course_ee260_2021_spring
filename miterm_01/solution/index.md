@@ -134,7 +134,7 @@ endmodule
 
 | a. | b. |
 | --| --|
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_ab.png" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_ad.png" width=175 >}} |
+| {{< figure src="https://github.com/gustybear-teaching/course_ee260_2021_spring/raw/main/miterm_01/solution/images/solution_ab.jpg" width=175 >}} | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution_ad.jpg" width=175 >}} |
 
 3) (5 pts) Write the 8-bit signed-magnitude, two's-complement representations for each of these decimal numbers: +19, -47, 0.
 
@@ -190,6 +190,11 @@ endmodule
 
 > - b. X = (S + A)(S' + B)
 > - c. X = X''=((( S + A )( S' + B ))')'=(( S + A )' + ( S' + B )')'  
+> - d.
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution7.png" width=300 >}} |
+> | -- |
 
 8) (5 pts) Sketch the circuit that computes $|A - B| × 4$, where A, B are 4-bit signed (2's complement) numbers. For example: $𝐴 = 1010, 𝐵 = 0111 \rightarrow |𝐴 − 𝐵| \times 4 = 13 \times 4 = 52$. You can only use full adders and logic gates. Your circuit must avoid overflow. (hint: In Verilog, $X \times 4$ can be implemented as `{X, 2b'00}`)
 
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/solution/images/solution8.png" width=300 >}} |
+> | -- |
