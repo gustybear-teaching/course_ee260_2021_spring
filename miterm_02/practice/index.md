@@ -58,6 +58,10 @@ module Testbench ();
     end
 endmodule
 ```
+
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_2.png" width=300 >}} |
+| -- |
+
 > - d.
 
 3) (2 pts) Which of the following is true of an assignment statement p = x & y & z?
