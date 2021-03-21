@@ -59,7 +59,7 @@ module Testbench ();
 endmodule
 ```
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_2.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_2.png" width=500 >}} |
 | -- |
 
 > - d.
