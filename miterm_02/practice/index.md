@@ -70,7 +70,7 @@ endmodule
  - c. z = 0, state = n
  - d. z = 1, state = n
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_3.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_3.png" width=300 >}} |
 | -- |
 
 > - c.
@@ -91,32 +91,39 @@ endmodule
 1) (5 pts) Compare the behavior of D latch and D flip-flop devices by completing the timing diagram in Figure below. Provide a brief explanation of the behavior of each device. Assume each device initially stores a 0.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_1.png" width=400 >}} |
+> | -- |
 
 2) (5 pts) A circuit has an input X that is connected to the input of a D flip-flop. Using additional D flip-flops, complete the circuit so that an output Y equals the output of X’s flip-flop but delayed by two clock cycles. 
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_2.png" width=400 >}} |
+> | -- |
 
 3) (5 pts) Draw a state diagram for an FSM with no inputs and three outputs x, y, and z. xyzshould always exhibit the following sequence: 000, 001, 010, 100, repeat. The output should change only on a rising clock edge. Make 000 the initial state.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_4.png" width=400 >}} |
+> | -- |
 
 4) (5 pts) Using the process for designing a controller, convert the FSM you created for the previous problem to a controller, implementing the controller using a state register and logic gates.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_5.png" width=400 >}} |
+> | -- |
 
 5) (5 pts) Trace the behavior of an 8-bit parallel load register with 8-bit input I, 8-bit output Q, load control input ld, and synchronous clear input clr by completing the timing diagram in Figure below.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_6.png" width=400 >}} |
+> | -- |
 
 6) (5 pts) Draw the gate level design of a 1-bit full adder. Draw the schematic of a 8-bit carry-ripple adder using eight 1-bit full adders. Assuming AND gates have a delay of 2 ns, OR gates have a delay of 1 ns, and XOR gates have a delay of 3 ns, compute the longest time required to add two numbers using an 8-bit carry-ripple adder.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_7a.png" width=400 >}} |
+> | -- |
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_7b.png" width=400 >}} |
+> | -- |
 
->From the illustration above, we see that both the FA and HA have a maximum gate delay of 3 ns. Therefore, 8 adders * 3 ns/adder = 24 ns is required for an 8-bit carryripple adder to ensure a correct sum is on the adder’s output. 
+> From the illustration above, we see that both the FA and HA have a maximum gate delay of 3 ns. Therefore, 8 adders * 3 ns/adder = 24 ns is required for an 8-bit carryripple adder to ensure a correct sum is on the adder’s output. 
 
->An answer of 23 ns is also acceptable since the carry out of a half-adder will be correct after 2 ns, not 3 ns, and a half-adder may be used for adding the first pair of bits (least significant bits) if the 8-bit adder has no carry-in.
+> An answer of 23 ns is also acceptable since the carry out of a half-adder will be correct after 2 ns, not 3 ns, and a half-adder may be used for adding the first pair of bits (least significant bits) if the 8-bit adder has no carry-in.
 
 7) (5 pts) Use magnitude comparators and logic to design a circuit that computes the minimum of three 8-bit numbers.
 
