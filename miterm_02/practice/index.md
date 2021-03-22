@@ -59,94 +59,79 @@ module Testbench ();
 endmodule
 ```
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_2.png" width=500 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_2.png" width=400 >}} |
 | -- |
 
 > - d.
 
-3) (2 pts) Which of the following is true of an assignment statement p = x & y & z?
- - a. The assignment operator must be <=
- - b. The assignment operator must be ==
- - c. An assignment statement assigns the right-side variable with the result of the left-side expression
- - d. An assignment statement assigns the left-side variable with the result of the right-side expression
+3) (2 pts) The given FSM has input b, output z, and starts in state m. What is the FSM's resulting output and state if on the clock’s rising edge b is 0?
+ - a. z = 0, state = m
+ - b. z = 1, state = m
+ - c. z = 0, state = n
+ - d. z = 1, state = n
 
-> - d.
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_3.png" width=400 >}} |
+| -- |
 
-4) (2 pts) Identify the example that represents the accurate conversion of a Boolean expression to Verilog.
- - a. x = a'bc' is converted to x = a & b & c
- - b. x = a + b + c’ is converted to x = a | b | c
- - c. x = (pq) (rs) + a is converted to x = (p & q) (r & s) + a
- - d. x = (pq) + (rs) + a’ is converted to x = (p & q) | (r & s) | ~a
+> - c.
 
-> - d.
+4) (2 pts) When implementing the FSM as a controller, how many outputs does the combinational logic block require?
+ - a. 2
+ - b. 3
+ - c. 4
+ - d. 6
+
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_4.png" width=400 >}} |
+| -- |
+
+> - c.
 
 **Short-Answer Questions (40 pts)**
 
-1) (5 pts) Perform the following number-system conversions (show your work):
-  - a. $129_{10} = ()_{2}$
-  - b. $0011010_{2} = ()_{10}$
-  - c. $0F100_{16} = ()_{2}$
-  - d. $1001101101101_{2} = ()_{16}$
+1) (5 pts) Compare the behavior of D latch and D flip-flop devices by completing the timing diagram in Figure below. Provide a brief explanation of the behavior of each device. Assume each device initially stores a 0.
 
->  - a. $129_{10} = (10000001)_{2}$
->  - b. $0011010_{2} = (26)_{10}$
->  - c. $0F100_{16} = (0000 1111 0001 0000 0000)_{2}$
->  - d. $1001101101101_{2} = (136D)_{16}$
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_1.png" width=400 >}} |
 
-2) (5 pts) Draw the NAND(x,y) gate CMOS transistor circuit. Show the conduction path and output value when: 
-  - a. x = 1 and y = 0
-  - b. x = 1 and y = 1
+2) (5 pts) A circuit has an input X that is connected to the input of a D flip-flop. Using additional D flip-flops, complete the circuit so that an output Y equals the output of X’s flip-flop but delayed by two clock cycles. 
 
-> {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/images/solution_3.jpg" width=250 >}}
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_2.png" width=400 >}} |
 
-3) (5 pts) Convert the following equation directly to gate-level circuits: F = a + bcd’ + a'e + f’
+3) (5 pts) Draw a state diagram for an FSM with no inputs and three outputs x, y, and z. xyzshould always exhibit the following sequence: 000, 001, 010, 100, repeat. The output should change only on a rising clock edge. Make 000 the initial state.
 
-> {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/images/solution_4.png" width=250 >}}
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_4.png" width=400 >}} |
 
-4) (5 pts) Expand F(w,y,z) = wy to 
-  - a. sum-of-minterms form
-  - b. product-of-maxterms form
+4) (5 pts) Using the process for designing a controller, convert the FSM you created for the previous problem to a controller, implementing the controller using a state register and logic gates.
 
-> a. F(w,y,z) = wyz' + wyz
-> b. F(w,y,z) = (w + y + z)(w + y + z')(w + y' + z)(w + y' + z')(w' + y + z)(w' + y +z')
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_5.png" width=400 >}} |
 
-5) (5 pts) A car has a fuel-level detector that outputs the current fuel-level as a 3-bit binary number, with 000 meaning empty and 111 meaning full. Create a circuit that illuminates a “low fuel” indicator light (by setting an output L to 1) when the fuel level drops below level 3.
+5) (5 pts) Trace the behavior of an 8-bit parallel load register with 8-bit input I, 8-bit output Q, load control input ld, and synchronous clear input clr by completing the timing diagram in Figure below.
 
-> Step 1: Capture the function (truth table)  
-> {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/images/solution_5a.png" width=250 >}}
-> Step 2A: Create equation (canonical form)  
-> L = F2'F1'F0' + F2'F1'F0 + F2'F1F0'  
-> Step 2B: Create circuit  
-> {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/images/solution_5b.png" width=250 >}}
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_6.png" width=400 >}} |
 
-6) (5 pts) Convert the function F shown in the truth table in Table below to an *product-of-sum* equation. Don’t minimize the equation.
+6) (5 pts) Draw the gate level design of a 1-bit full adder. Draw the schematic of a 8-bit carry-ripple adder using eight 1-bit full adders. Assuming AND gates have a delay of 2 ns, OR gates have a delay of 1 ns, and XOR gates have a delay of 3 ns, compute the longest time required to add two numbers using an 8-bit carry-ripple adder.
 
-{{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/practice/images/problem_6.png" width=250 >}}
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_7a.png" width=400 >}} |
 
-> F = (a + b + c)(a + b' + c)(a + b' + c')(a' + b + c)(a' + b + c')
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_7b.png" width=400 >}} |
 
-7) (5 pts) Use the theorems of boolean algebra to simplify the following logic function: F = m·n·o + q’·p’·n’ + p·r·m + q’·o·m·p’ + m·r (hint, the result has three terms. Don't spend too much time on this one. If stuck, move on first)
+>From the illustration above, we see that both the FA and HA have a maximum gate delay of 3 ns. Therefore, 8 adders * 3 ns/adder = 24 ns is required for an 8-bit carryripple adder to ensure a correct sum is on the adder’s output. 
 
-> F = m·n·o + q’·p’·n’ + q’·o·m·p’ + m·r + p·r·m (rearrange)  
-> F = m·n·o + q’·p’·n’ + q’·o·m·p’ + m·r (drop p·r·m)  
-> F = n·(m·o) + (q’·p’)·n’ + (q’·p’)·(o·m) + m·r (associative)  
-> F = n·(m·o) + (q’·p’)·n’ + m·r (consensus, a·b + a’·c + b·c = a·b + a’·c)  
-> F = n·m·o + q’·p’·n’ + m·r
+>An answer of 23 ns is also acceptable since the carry out of a half-adder will be correct after 2 ns, not 3 ns, and a half-adder may be used for adding the first pair of bits (least significant bits) if the 8-bit adder has no carry-in.
 
-8) (5 pts) Implement a 4-to-2 priority encoder using only NOR gates.
-  - a. Derive the truth table.
-  - b. Derive the sum-of-product expression.
-  - c. Derive the product-of-sum expression.
-  - d. Convert the product-of-sum circuit into NOR gate implementation.
+7) (5 pts) Use magnitude comparators and logic to design a circuit that computes the minimum of three 8-bit numbers.
 
-> a.  
-> | X3   | X2   | X1   | X0   | Y1   | Y0   |
-> | :--: | :--: | :--: | :--: | :--: | :--: |
-> | 0    | 0    | 0    | X    | 0    | 0    |
-> | 0    | 0    | 1    | X    | 0    | 1    |
-> | 0    | 1    | X    | X    | 1    | 0    |
-> | 1    | X    | X    | X    | 1    | 1    |
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_8.png" width=400 >}} |
 
-> - b. Y1 = X3 + X3'X2; Y0 = X3 + X3'X2'X1
-> - c. Y1 = (X3 + X2); Y0 = (X3 + X2 + X1)(X3 + X2')
-> - d. Y1 = {(X3 + X2)' + 0}'; Y0 = {(X3 + X2)'' + X1)' + (X3 + X2')'}'  
+8) (5 pts) You are asked to design a comparator for three-bit 2’s complement numbers. A[0:2] and B[0:2] are both 2’s complement numbers with A2 and B2 being the MSBs. If A < B then LT should be 1 and the other outputs 0. If A > B then GT should be 1 and every other output 0. If A=B then EQ should be 1 and every other output 0.  
+
+- a.	List the following 3-bit 2’s complement numbers in order from smallest to largest: 111, 101, 011, 010, 100.
+- b.	Write the logic equations for LT, EQ and GT. Be sure to circle your final answer. Be sure you have also circled any intermediate values (nodes) you are using in your final answer.
+
+
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_9.png" width=400 >}} |
+
+> - a. 100(-4), 101(-3), 111(-1), 010(2), 011(3)
+> - b. <a href="https://www.codecogs.com/eqnedit.php?latex=EQ&space;=&space;(\bar{A_2}&space;\oplus&space;B_2)\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)\cdot&space;(\bar{A_0}&space;\oplus&space;B_0)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?EQ&space;=&space;(\bar{A_2}&space;\oplus&space;B_2)\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)\cdot&space;(\bar{A_0}&space;\oplus&space;B_0)" title="EQ = (\bar{A_2} \oplus B_2)\cdot (\bar{A_1} \oplus B_1)\cdot (\bar{A_0} \oplus B_0)" /></a>  
+> - c. <a href="https://www.codecogs.com/eqnedit.php?latex=GT&space;=&space;(\bar{A_2}&space;\cdot&space;B_2)&space;&plus;&space;(\bar{A_2}&space;\oplus&space;B_2)&space;\cdot&space;(A_1&space;\cdot&space;\bar{B_1})&space;&plus;&space;(\bar{A_2}\oplus&space;B_2)&space;\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)&space;\cdot&space;(A_0&space;\cdot&space;\bar{B_0})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?GT&space;=&space;(\bar{A_2}&space;\cdot&space;B_2)&space;&plus;&space;(\bar{A_2}&space;\oplus&space;B_2)&space;\cdot&space;(A_1&space;\cdot&space;\bar{B_1})&space;&plus;&space;(\bar{A_2}\oplus&space;B_2)&space;\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)&space;\cdot&space;(A_0&space;\cdot&space;\bar{B_0})" title="LT(\text{mirror of GT}) = (\bar{A_2} \cdot B_2) + (\bar{A_2} \oplus B_2) \cdot (A_1 \cdot \bar{B_1}) + (\bar{A_2}\oplus B_2) \cdot (\bar{A_1} \oplus B_1) \cdot (A_0 \cdot \bar{B_0})" /></a>  
+> - d. <a href="https://www.codecogs.com/eqnedit.php?latex=LT&space;=&space;(\bar{EQ}&space;\cdot&space;\bar{GT})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?LT&space;=&space;(\bar{EQ}&space;\cdot&space;\bar{GT})" title="GT(\text{mirror of LT}) = (\bar{EQ} \cdot \bar{GT})" /></a>  
+
