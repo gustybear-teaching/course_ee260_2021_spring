@@ -128,6 +128,7 @@ endmodule
 7) (5 pts) Use magnitude comparators and logic to design a circuit that computes the minimum of three 8-bit numbers.
 
 > | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/solution_8.png" width=400 >}} |
+> | -- |
 
 8) (5 pts) You are asked to design a comparator for three-bit 2’s complement numbers. A[0:2] and B[0:2] are both 2’s complement numbers with A2 and B2 being the MSBs. If A < B then LT should be 1 and the other outputs 0. If A > B then GT should be 1 and every other output 0. If A=B then EQ should be 1 and every other output 0.  
 
@@ -136,6 +137,7 @@ endmodule
 
 
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_9.png" width=400 >}} |
+> | -- |
 
 > - a. 100(-4), 101(-3), 111(-1), 010(2), 011(3)
 > - b. <a href="https://www.codecogs.com/eqnedit.php?latex=EQ&space;=&space;(\bar{A_2}&space;\oplus&space;B_2)\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)\cdot&space;(\bar{A_0}&space;\oplus&space;B_0)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?EQ&space;=&space;(\bar{A_2}&space;\oplus&space;B_2)\cdot&space;(\bar{A_1}&space;\oplus&space;B_1)\cdot&space;(\bar{A_0}&space;\oplus&space;B_0)" title="EQ = (\bar{A_2} \oplus B_2)\cdot (\bar{A_1} \oplus B_1)\cdot (\bar{A_0} \oplus B_0)" /></a>  
