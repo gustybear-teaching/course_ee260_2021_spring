@@ -136,7 +136,7 @@ endmodule
 - b.	Write the logic equations for LT, EQ and GT. Be sure to circle your final answer. Be sure you have also circled any intermediate values (nodes) you are using in your final answer.
 
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_9.png" width=400 >}} |
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/practice/images/problem_9.png" width=400 >}} |
 > | -- |
 
 > - a. 100(-4), 101(-3), 111(-1), 010(2), 011(3)
