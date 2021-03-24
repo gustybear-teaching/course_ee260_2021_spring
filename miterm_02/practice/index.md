@@ -1,10 +1,10 @@
 ---
 title: "Practice Exam"
-date: 2021-02-12
+date: 2021-03-20
 type: book
 commentable: true
 
-summary: "The practice exam for midterm 01, EE260, spring, 2021."
+summary: "The practice exam for midterm 02, EE260, spring, 2021."
 
 tags:
 - teaching
