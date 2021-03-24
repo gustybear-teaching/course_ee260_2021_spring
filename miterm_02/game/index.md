@@ -114,7 +114,7 @@ module Testbench ();
 
 4) (2 pts) The given FSM has input b, output z, and starts in state x. What is the FSM's resulting output if b is 1 on the first rising clock edge, 1 on the second, and 1 on the third?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_4.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/game/images/problem_4.png" width=300 >}} |
 | -- |
 - a. z = 0
 - b. z = 1
@@ -123,7 +123,7 @@ module Testbench ();
 
 5) (2 pts) State F3 transitions to state _____ when enable (e) is 0.
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_5.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/game/images/problem_5.png" width=400 >}} |
 | -- |
 
 - a. F0
@@ -135,23 +135,39 @@ module Testbench ();
 
 1) (5 pts) Trace the behavior of a level-sensitive SR latch for the input pattern in Figure below. Assume S1, R1, and Q are initially 0. Complete the timing diagram, assuming logic gates have a tiny but non-zero delay.
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_s1.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/game/images/problem_s1.png" width=400 >}} |
 | -- |
 
-2) (5 pts) Using four registers, design a circuit that stores the four values present at an 8-bit input D during the previous four clock cycles. The circuit should have a single 8-bit output that can be configured using two inputs s1 and s0 to output any one of the four registers. 
+2) (5 pts) Using four registers, design a circuit that stores the four values present at an 8-bit input D during the previous four clock cycles. The circuit should have a single 8-bit output that can be configured using two inputs s1 and s0 to output any one of the four registers.
+
+ |  |
+ |--|
 
 3) (5 pts) Draw a state diagram for an FSM that has an input X and an output Y. Whenever X changes from 0 to 1, Y should become 1 for two clock cycles and then return to 0 -- even if X is still 1. (Assume for this problem and all other FSM problems that an implicit rising clock is ANDed with every FSM transition condition.)
+
+ |  |
+ |--|
 
 4) (5 pts) Using the process for designing a controller, convert the FSM you
 created in problem 3) into a controller, implementing the controller using a state register and logic gates.
 
+ |  |
+ |--|
+
 5) (5 pts) Design a 4-bit register with 2 control inputs s1 and s0, 4 data inputs I3, I2, I1 and I0, and 4 data outputs Q3, Q2, Q1 and Q0. When s1s0=00, the register maintains its value. When s1s0=01, the register loads I3..I0. When s1s0=10, the register clears itself to 0000. When s1s0=11, the register complements itself, so for example 0000 would become 1111, and 1010 would become 0101.
+
+ |  |
+ |--|
 
 6) (5 pts) Design a system that computes the sum of three 8-bit numbers using 8-bit carry-ripple adders.
 
+ |  |
+ |--|
+
 7) (5 pts) Let $ \mathbf{X} = X3 X2 X2 X0 $ denote the contents of register R, shown in this circuit, as a two’s complement number. After exactly two clock ticks, what is the contents of R?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_01/game/images/problem_s7.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/game/images/problem_s7.png" width=400 >}} |
 | -- |
+
 
 8) (5 pts) Design a Moore-type state transition diagram for a state machine that has one input (X) and one output (A). The output should go high if the last three instances of X were the same. Otherwise the output should be low. You must use fewer than 9 states. 
