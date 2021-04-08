@@ -149,21 +149,33 @@ module Testbench ();
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/game/images/problem_s1.png" width=400 >}} |
 | -- |
 
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s1.png" width=400 >}} |
+> | -- |
+
 2) (5 pts) Using four registers, design a circuit that stores the four values present at an 8-bit input D during the previous four clock cycles. The circuit should have a single 8-bit output that can be configured using two inputs s1 and s0 to output any one of the four registers.
 
  |  |
  |--|
+
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s2.png" width=400 >}} |
+> | -- |
 
 3) (5 pts) Draw a state diagram for an FSM that has an input X and an output Y. Whenever X changes from 0 to 1, Y should become 1 for two clock cycles and then return to 0 -- even if X is still 1. (Assume for this problem and all other FSM problems that an implicit rising clock is ANDed with every FSM transition condition.)
 
  |  |
  |--|
 
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s3.png" width=400 >}} |
+> | -- |
+
 4) (5 pts) Using the process for designing a controller, convert the FSM you
 created in problem 3) into a controller, implementing the controller using a state register and logic gates.
 
  |  |
  |--|
+
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s4.png" width=400 >}} |
+> | -- |
 
 5) (5 pts) Design a 4-bit register with 2 control inputs s1 and s0, 4 data inputs I3, I2, I1 and I0, and 4 data outputs Q3, Q2, Q1 and Q0. When s1s0=00, the register maintains its value. When s1s0=01, the register loads I3..I0. When s1s0=10, the register clears itself to 0000. When s1s0=11, the register complements itself, so for example 0000 would become 1111, and 1010 would become 0101.
 
