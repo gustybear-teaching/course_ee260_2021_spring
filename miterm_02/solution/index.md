@@ -182,15 +182,25 @@ created in problem 3) into a controller, implementing the controller using a sta
  |  |
  |--|
 
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s5.png" width=400 >}} |
+> | -- |
+
 6) (5 pts) Design a system that computes the sum of three 8-bit numbers using 8-bit carry-ripple adders.
 
  |  |
  |--|
+
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s6.png" width=400 >}} |
+> | -- |
 
 7) (5 pts) Let $ \mathbf{X} = X3 X2 X2 X0 $ denote the contents of register R, shown in this circuit, as a two’s complement number. After exactly two clock ticks, what is the contents of R?
 
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/game/images/problem_s7.png" width=400 >}} |
 | -- |
 
+> X
 
 8) (5 pts) Design a Moore-type state transition diagram for a state machine that has one input (X) and one output (A). The output should go high if the last three instances of X were the same. Otherwise the output should be low. You must use fewer than 9 states. 
+
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s8.png" width=400 >}} |
+> | -- |
