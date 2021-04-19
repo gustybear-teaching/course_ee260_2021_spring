@@ -173,15 +173,6 @@ created in problem 3) into a controller, implementing the controller using a sta
 
  |  |
  |--|
-
-> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s4.png" width=400 >}} |
-> | -- |
-
-5) (5 pts) Design a 4-bit register with 2 control inputs s1 and s0, 4 data inputs I3, I2, I1 and I0, and 4 data outputs Q3, Q2, Q1 and Q0. When s1s0=00, the register maintains its value. When s1s0=01, the register loads I3..I0. When s1s0=10, the register clears itself to 0000. When s1s0=11, the register complements itself, so for example 0000 would become 1111, and 1010 would become 0101.
-
- |  |
- |--|
-
 > Encoding (S1S0): A = 00; B = 01; C = 10; D = 11
 > 
 > | X  | S1 | S0 | N1 | N0 | Y  |
@@ -198,6 +189,14 @@ created in problem 3) into a controller, implementing the controller using a sta
 > n1 = S1'S0 + XS0 + XS1
 > n0 = XS1 + XS0'
 > Y = S1'S0 + S1S0'
+> | -- |
+
+5) (5 pts) Design a 4-bit register with 2 control inputs s1 and s0, 4 data inputs I3, I2, I1 and I0, and 4 data outputs Q3, Q2, Q1 and Q0. When s1s0=00, the register maintains its value. When s1s0=01, the register loads I3..I0. When s1s0=10, the register clears itself to 0000. When s1s0=11, the register complements itself, so for example 0000 would become 1111, and 1010 would become 0101.
+
+ |  |
+ |--|
+
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/miterm_02/solution/images/solution_s5.png" width=400 >}} |
 > | -- |
 
 6) (5 pts) Design a system that computes the sum of three 8-bit numbers using 8-bit carry-ripple adders.
