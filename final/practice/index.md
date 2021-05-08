@@ -155,7 +155,7 @@ endmodule
 
 4) (8 pts) Analyze the state machine in the figure below. Write excitation equations, excitation transition table, and state/output table (use state A-H for Q1 Q2 Q3 = 000 – 111)
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/short_problem_3.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/short_problem_3.png" width=500 >}} |
 | -- |
 
 5) (8 pts) Capture the following system behavior as an HLSM. The system has two single-bit inputs U and D each coming from a button, and a 16-bit output C, which is initially 0. For each press of U, the system increments C. For each press of D, the system decrements C. If both buttons are pressed, the system does not change C. The system does not roll over; it goes no higher than than the largest C and no lower than C=0. A press is detected as a change from 0 to 1; the duration of that 1 does not matter.
