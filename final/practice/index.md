@@ -23,7 +23,7 @@ tags:
 
 2) (2 pts) A 4x1mux is captured by which equation?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_2.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_2.png" width=200 >}} |
 | -- |
 
  - a. y = s0'i0 + s0i1 + s1'i2 + s1'i3
@@ -59,7 +59,7 @@ tags:
 
 6) (2 pts) Determine the number of transistors used to compute all partial products for the given 3-bit multiplier if a2a1a0 = 101 and b2b1b0 = 011.
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_6.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_6.png" width=300 >}} |
 | -- |
 
  - a. 36 transistors
@@ -79,7 +79,7 @@ tags:
 
 8) (2 pts) Which of the following results in the best simplification? Note: Each circle is denoted by parenthesis. (A, B) indicates that a circle includes cells A and B.
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_8.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_8.png" width=300 >}} |
 | -- |
 
  - a. (m0, m1), (m3, m2), (m5, m7)
@@ -96,7 +96,7 @@ tags:
 
 10) (2 pts) Identify the Verilog description’s input and output declaration for the given HLSM.
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/short_problem_9.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/practice/images/multi_problem_9.png" width=400 >}} |
 | -- |
 
  - a.
@@ -168,12 +168,20 @@ endmodule
  |  |
  |--|
 
-7) (8 pts) List the basic register/memory transfers and operations that occur during each clock cycle for the following program, based on the six-instruction instruction set of week 15, assuming that the content of D[9] is 0: MOV R6, #1; MOV R5, 9; JMPZ R5, label1; ADD R5, R5, R6; label1: ADD R5, R5, R6. What is the value in R5 after the program completes? (show your work)
+7) (8 pts) List the basic register/memory transfers and operations that occur during each clock cycle for the following program, based on the six-instruction instruction set of week 15, assuming that the content of D[9] is 0: 
+```
+        MOV R6, #1; 
+        MOV R5, 9; 
+        JMPZ R5, label1; 
+        ADD R5, R5, R6; 
+label1: ADD R5, R5, R6.
+```
+What is the value in R5 after the program completes? (show your work)
 
  |  |
  |--|
 
-8) The code below should implement a simple four state FSM which increments a 4-bit synchronous counter when the FSM is in state 2’b10. Identify the major problem with this code when synthesized. Propose a solution to fix the problem. You can define a new variable if necessary
+8) The code below should implement a simple four state FSM which increments a 4-bit synchronous counter when the FSM is in state 2'b10. Identify the major problem with this code when synthesized. Propose a solution to fix the problem. You can define a new variable if necessary
 
 ```
 module simple_fsm(clk, reset, count);
@@ -206,7 +214,7 @@ module simple_fsm(clk, reset, count);
 endmodule
 ```
 
-9) (8 pts) Assume that the PC autoincrement time is 20ns, ALU propagation delay is 10ns for “pass A” ops (pass through whatever at the A to the output of the ALU) and 50ns for ADD, memory reads/writes are 50ns from stable addr, combinational logic delay is 10ns, register setup times are 10ns, and register propagation delays are 10ns 	
+9) (8 pts) Assume that the PC autoincrement time is 20ns, ALU propagation delay is 10ns for "pass A" ops (pass through whatever at the A to the output of the ALU) and 50ns for ADD, memory reads/writes are 50ns from stable addr, combinational logic delay is 10ns, register setup times are 10ns, and register propagation delays are 10ns 	
 
 - a. Draw the control/data signals for MOV R7,R8 on the figure below, showing the timing as carefully as you can. Use X and Z to indicate unknown and high-impedance. Show the signal/data values right before the rising edge of the clock for this instruction if you can.
 - b. How short could the clock period be (in ns) to execute this instruction? Why?
