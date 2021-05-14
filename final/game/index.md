@@ -29,7 +29,7 @@ tags:
 
 3) (2 pts) What does the following circuit output?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_3.png" width=500 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_3.png" width=300 >}} |
 | -- |
 
  - a. 00000000
