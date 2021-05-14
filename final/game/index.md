@@ -14,7 +14,7 @@ tags:
 
 **Multiple Choices Questions (20 pts)**
 
-1) (2 pts) Which of the following is a sum-of-minterm representation of a(b + c')??
+1) (2 pts) Which of the following is a sum-of-minterm representation of a(b + c')?
  - a. ab + ac'
  - b. abc + abc' + ab'c'
  - c. abc + abc' + ab'c' + a'bc'
@@ -29,7 +29,8 @@ tags:
 
 3) (2 pts) What does the following circuit output?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_3.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_3.png" width=500 >}} |
+| -- |
 
  - a. 00000000
  - b. 00001000
@@ -64,7 +65,7 @@ tags:
 
 8) (2 pts) The HLSM describes the loop behavior of a pulse generator. The output z is connected to the bulb and the pulse generated switches on the bulb. For how many clock cycles is z set to 1?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_8.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_8.png" width=500 >}} |
 | -- |
 
  - a. 2 clock cycles
@@ -74,7 +75,7 @@ tags:
 
 9) (2 pts) For the given diagram, identify the action in ON state.?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_9.png" width=300 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_9.png" width=500 >}} |
 | -- |
 
  - a. B_s = 0 and B_ld = 1
@@ -84,7 +85,7 @@ tags:
 
 10) (2 pts) Identify XXX in the Verilog code snippet that uses the correct logical operator for the given FSM?
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_7.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/multi_problem_7.png" width=500 >}} |
 | -- |
 
 ```
@@ -121,9 +122,12 @@ end
 
 4) (10 pts) Design a finite state machine (FSM) for a counter that counts through the 3-bit prime numbers downwards. Assume the counter starts with initial prime value set to 010 as its first 3 bit prime number. You need to provide the state transition table and the state transition diagram. Assume that the state is stored in three D-FFs. Hint: The set of all 3-bit prime numbers includes 2, 3, 5 and7.
 
+ |  |
+ |--|
+
 5) (10 pts) Write the finite state machine (FSM) of the circuit shown below. Hint: In the given DEMUX below, S2 is the input signal, S1=Q1, S0=Q0, and there is a single output labeled as M. 
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_5.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_5.png" width=500 >}} |
  |--|
 
 6) (10 pts) Use a Karnaugh map to find all of the static hazards in the corresponding two-level circuit, and design a hazard-free circuit that realizes the same logic functions: F = W'X' + Y'Z + W'XYZ + WXYZ'
@@ -134,7 +138,7 @@ end
 
 6) (10 pts) Converting a state transition diagram to logic. You are to assign state bits S[1:0] as 00 for state M, 11 for state R, and 01 for state T. You are to find logic equations for the next state (NS[1:0]) and the outputs (Y and Z) and put them all in project-of-sums form. Use K-maps to do the minimization. Clearly show your work and provide your final answer where shown. You don't care what happens if the machine somehow gets into state 10. 
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_7.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_7.png" width=500 >}} |
 | -- |
 
 7) (10 pts) Consider flip-flops A, B and C each nominally clocked off of the same clock. Assume:
@@ -145,7 +149,7 @@ Answer the following questions:
  - Q1. What is the shortest clock period you could safely clock this system at? Show your work. 
  - Q2. What is the (non-negative) range of values for the flip-flop’s hold time would be sufficient? Show your work. 
 
-| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_8.png" width=400 >}} |
+| {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_8.png" width=500 >}} |
 | -- |
 
 8) (10 pts) You wish to design a state machine that has one input "A" and one Moore-type output "Z". Z should be a 1 if and only if the last 6 values of A were "0". Due to budget cuts, you only have the following devices available: 
