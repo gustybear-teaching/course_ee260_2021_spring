@@ -144,7 +144,8 @@ end
 7) (10 pts) Consider flip-flops A, B and C each nominally clocked off of the same clock. Assume:
  - a. Each flip-flop has a set-up time of 5ns and a clock-to-Q delay of 3ns to 4ns, 
  - b. The AND and OR gates each have a delay of 2 to 6 ns,
- - c. The NOT gate has a delay of 1 to 5 ns,
+ - c. The NOT gate has a delay of 1 to 5 ns.
+
 Answer the following questions: 
  - Q1. What is the shortest clock period you could safely clock this system at? Show your work. 
  - Q2. What is the (non-negative) range of values for the flip-flop’s hold time would be sufficient? Show your work. 
@@ -158,4 +159,5 @@ Answer the following questions:
  - c. Modulo-16 counters with enable and reset
  - d. 4 to 16 decoders 
  - e. 2-to-1 MUX (1-bit wide). 
+
 Using as few devices as possible, implement the state machine described above. Solutions which use more than 4 devices will receive no credit.
