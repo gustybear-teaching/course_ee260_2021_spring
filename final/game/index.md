@@ -148,7 +148,10 @@ end
 
 Answer the following questions: 
  - Q1. What is the shortest clock period you could safely clock this system at? Show your work. 
- - Q2. What is the (non-negative) range of values for the flip-flop’s hold time would be sufficient? Show your work. 
+ - Q2. What is the (non-negative) range of values for the flip-flop’s hold time would be sufficient? 
+
+Show your work. 
+
 
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_8.png" width=500 >}} |
 | -- |
