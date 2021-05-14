@@ -146,11 +146,9 @@ end
  - b. The AND and OR gates each have a delay of 2 to 6 ns,
  - c. The NOT gate has a delay of 1 to 5 ns.
 
-Answer the following questions: 
+   Answer the following questions and show your work: 
  - Q1. What is the shortest clock period you could safely clock this system at? Show your work. 
- - Q2. What is the (non-negative) range of values for the flip-flop’s hold time would be sufficient? 
-
-Show your work. 
+ - Q2. What is the (non-negative) range of values for the flip-flop’s hold time would be sufficient?
 
 
 | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/game/images/short_problem_8.png" width=500 >}} |
@@ -163,4 +161,4 @@ Show your work.
  - d. 4 to 16 decoders 
  - e. 2-to-1 MUX (1-bit wide). 
 
-Using as few devices as possible, implement the state machine described above. Solutions which use more than 4 devices will receive no credit.
+   Using as few devices as possible, implement the state machine described above. Solutions which use more than 4 devices will receive no credit.
