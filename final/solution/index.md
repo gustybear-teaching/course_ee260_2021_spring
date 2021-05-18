@@ -1,5 +1,5 @@
 ---
-title: "Exam Solution"
+title: "Exam Solutions"
 date: 2021-05-14
 type: book
 commentable: true
