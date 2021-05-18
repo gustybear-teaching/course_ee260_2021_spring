@@ -155,7 +155,7 @@ end
 6) (10 pts) Use a Karnaugh map to find all of the static hazards in the corresponding two-level circuit, and design a hazard-free circuit that realizes the same logic functions: F = W'X' + Y'Z + W'XYZ + WXYZ'
  (The definition of static hazards can be found here: https://en.wikipedia.org/wiki/Hazard_(logic)#Static_hazards)
 
-> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/solution/images/short_solution_7.png" width=500 >}} |
+> | {{< figure src="https://raw.githubusercontent.com/gustybear-teaching/course_ee260_2021_spring/main/final/solution/images/short_solution_6.png" width=500 >}} |
 > | -- |
 
 7) (10 pts) Converting a state transition diagram to logic. You are to assign state bits S[1:0] as 00 for state M, 11 for state R, and 01 for state T. You are to find logic equations for the next state (NS[1:0]) and the outputs (Y and Z) and put them all in project-of-sums form. Use K-maps to do the minimization. Clearly show your work and provide your final answer where shown. You don't care what happens if the machine somehow gets into state 10. 
