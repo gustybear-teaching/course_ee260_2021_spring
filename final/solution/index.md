@@ -1,10 +1,10 @@
 ---
-title: "Exam"
+title: "Exam Solution"
 date: 2021-05-14
 type: book
 commentable: true
 
-summary: "The final exam, EE260, spring, 2021."
+summary: "The solution to final exam, EE260, spring, 2021."
 
 tags:
 - teaching
